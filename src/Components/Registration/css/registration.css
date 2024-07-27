@@ -1,0 +1,144 @@
+body {
+  background-color: #503e9d !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.all {
+  position: relative;
+}
+.books,
+.heal {
+  position: absolute;
+}
+.heal {
+  width: 200px;
+  top: 0%;
+  left: 10%;
+}
+.books {
+  bottom: 0% !important;
+  right: 0%;
+  overflow: hidden;
+}
+.books img {
+  width: 380px;
+  overflow: hidden;
+}
+form {
+  width: 410px;
+  margin: 55px auto;
+  border: 1px solid #ffffff33;
+  padding: 30px 20px 20px;
+  color: white;
+  box-shadow: 0px 0px 7px 1px #0000003d;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+.lock {
+  width: 200px !important;
+}
+form h1 {
+  font-size: 30px;
+}
+form p {
+  font-size: 13px;
+}
+form label {
+  font-size: 11px;
+}
+form .forgot {
+  font-size: 11px;
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white !important;
+}
+form .forgot:hover {
+  letter-spacing: 1px;
+}
+input {
+  background-color: transparent !important;
+  border: 1px solid #c4c4c4 !important;
+  color: #c4c4c4 !important;
+  font-size: 14px !important;
+}
+.information input {
+  width: 90%;
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid #c4c4c4 !important;
+  box-shadow: none !important;
+}
+input[type="password"] {
+  letter-spacing: 0.125em !important;
+  font-family: Verdana !important;
+}
+::placeholder {
+  color: #c4c4c4 !important;
+  font-size: 10px !important;
+}
+form button {
+  border: 1px solid white !important;
+  width: 100%;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  transition: 0.3s !important;
+}
+.btns .btn-one {
+  background-color: white !important;
+  color: #503e9d !important;
+}
+.google-login-container {
+  display: flex;
+  justify-content: center;
+}
+.google-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 14px !important;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+form button:hover {
+  letter-spacing: 2px;
+}
+.form-check-label {
+  cursor: pointer;
+}
+.password {
+  position: relative;
+}
+.eye {
+  position: absolute;
+  color: #c4c4c4;
+  right: 3%;
+  top: 30%;
+  cursor: pointer;
+}
+.google {
+  font-weight: 700 !important;
+}
+form h6 {
+  font-size: 12px;
+}
+form h6 a {
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+}
+form h6 a:hover {
+  color: white !important;
+}
+form h2 {
+  font-size: 12px !important;
+  margin-top: 3px;
+}
