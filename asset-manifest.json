@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be78003e.css",
+    "main.js": "/static/js/main.99b8f557.js",
+    "static/media/lesson.png": "/static/media/lesson.6d9abe127ddbdc0171ed.png",
+    "static/media/slide3.png": "/static/media/slide3.1e94bf5d8f8fe2ccf4aa.png",
+    "static/media/slide5.png": "/static/media/slide5.b7fbd382d66f00fbdbe3.png",
+    "static/media/book2.png": "/static/media/book2.9ed9f94a9a31e806e9ff.png",
+    "static/media/slide2.png": "/static/media/slide2.a1071cb150c3975daec7.png",
+    "static/media/slide4.png": "/static/media/slide4.38c9d50483c5e023a4ac.png",
+    "static/media/slide1.png": "/static/media/slide1.2312a1d76f4539bcff6d.png",
+    "static/media/book1.png": "/static/media/book1.eb54ae586cc8ffbae866.png",
+    "static/media/book3.png": "/static/media/book3.5e5eef939c4af60da5d6.png",
+    "static/media/slide6.png": "/static/media/slide6.4a3651ece822d9972e46.png",
+    "static/media/lock.png": "/static/media/lock.33184e7638e5fdaf706d.png",
+    "static/media/newpass.png": "/static/media/newpass.12330327573aa6691a88.png",
+    "static/media/preloader.png": "/static/media/preloader.ae3969986493c5753a60.png",
+    "static/media/google.png": "/static/media/google.e12914ad8afda3f6f2e8.png",
+    "static/media/support.png": "/static/media/support.c66a2906e7f4a64babd6.png",
+    "static/media/heal.png": "/static/media/heal.fc78c121a80378737452.png",
+    "static/media/books.png": "/static/media/books.23a7b790f378425c2f28.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.be78003e.css.map": "/static/css/main.be78003e.css.map",
+    "main.99b8f557.js.map": "/static/js/main.99b8f557.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be78003e.css",
+    "static/js/main.99b8f557.js"
+  ]
+}
