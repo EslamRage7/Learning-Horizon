@@ -1,0 +1,158 @@
+@media (max-width: 768px) {
+  .tab-pane {
+    border-radius: 30px !important;
+    padding: 50px 10px 30px;
+    background-color: #ffffff !important;
+  }
+  .custom-swal {
+    font-size: 13px;
+  }
+  .admin form {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .v-bg .pointer h5 {
+    font-size: 15px;
+  }
+  .v-bg .pointer h6 {
+    font-size: 12px;
+  }
+  .admin label {
+    font-size: 13px;
+  }
+  .admin textarea,
+  .admin select,
+  .admin input {
+    height: 36px !important;
+    font-size: 13px;
+  }
+  .admin .form-select {
+    font-size: 13px;
+  }
+  .admin p {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .admin .file {
+    font-size: 12px !important;
+  }
+  .admin .img-data {
+    width: 100px;
+  }
+  .details img {
+    width: 130px !important;
+    height: 130px !important;
+  }
+  .details .span-head {
+    font-size: 17px !important;
+    font-weight: bold !important;
+  }
+  .details .span-body {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+  }
+  .details .pdf {
+    font-size: 13px !important;
+  }
+  .details a {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .custom-swal {
+    font-size: 13px;
+    z-index: 666666666666 !important;
+  }
+}
+
+@media (max-width: 705px) {
+}
+@media (min-width: 575px) {
+  .sm-side {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .side-admin {
+    display: none;
+  }
+  .sm-side {
+    display: block;
+  }
+}
+
+@media (max-width: 568px) {
+  .admin .tab-pane {
+    padding: 50px 10px 30px !important;
+  }
+  .pills-head-table::before {
+    width: 5%;
+  }
+  .pills-head-table::after {
+    width: 4%;
+  }
+  .custom-swal {
+    font-size: 10px;
+  }
+  .v-bg .pointer h5 {
+    font-size: 13px;
+  }
+  .v-bg .pointer h6 {
+    font-size: 10px;
+  }
+  .admin label {
+    font-size: 13px;
+  }
+  .admin textarea,
+  .admin select,
+  .admin input {
+    font-size: 11px;
+  }
+  .admin .file {
+    font-size: 10px !important;
+  }
+  .admin .form-select {
+    font-size: 10px;
+  }
+  .admin p {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .admin .add {
+    font-size: 14px;
+  }
+  .admin .img-data {
+    width: 70px;
+  }
+  .details img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .details .span-head {
+    font-size: 15px !important;
+    font-weight: bold !important;
+  }
+  .details .span-body {
+    font-weight: 600 !important;
+    font-size: 12px !important;
+  }
+  .details .pdf {
+    font-size: 11px !important;
+  }
+  .details a {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .details .video-player {
+    height: 300px !important;
+    font-size: 10px;
+  }
+}
+@media (max-width: 468px) {
+  .details .video-player {
+    height: 250px !important;
+    font-size: 6px;
+  }
+}

@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+  .preloader {
+    position: absolute;
+    width: 430px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 768px) {
+  .preloader {
+    width: 370px;
+  }
+}
+@media (max-width: 568px) {
+  .preloader {
+    width: 300px;
+  }
+}
+@media (max-width: 368px) {
+  .preloader {
+    width: 250px;
+  }
+}

@@ -1,0 +1,53 @@
+.user-edit form {
+  background-color: #e9eef5;
+  padding: 25px;
+  border-radius: 20px;
+}
+.user-edit label {
+  color: #503e9d;
+  font-weight: 600;
+}
+.user-edit input {
+  background-color: white !important;
+  color: #503e9d !important;
+  font-weight: 600;
+  border: none !important;
+}
+.user-edit select {
+  font-size: 14px !important;
+}
+.user-edit .css-13cymwt-control {
+  border: none !important;
+}
+.user-edit .css-1dimb5e-singleValue {
+  font-size: 14px;
+  color: #503e9d !important;
+  font-weight: 600 !important;
+}
+.user-edit .css-19bb58m {
+  margin: -20px !important;
+}
+.user-edit .save {
+  background-color: #503e9d;
+  color: white;
+  transition: 0.3s;
+}
+.user-edit .save:focus {
+  background-color: #503e9d;
+  color: white;
+}
+.user-edit .save:hover {
+  letter-spacing: 1px;
+}
+.user-edit .btn-danger {
+  transition: 0.3s;
+}
+.user-edit .save:hover,
+.user-edit .btn-danger:hover {
+  letter-spacing: 1px;
+}
+.user-edit p {
+  color: red;
+  width: max-content;
+  font-size: 13px;
+}

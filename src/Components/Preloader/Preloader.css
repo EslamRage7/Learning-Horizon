@@ -1,0 +1,10 @@
+body {
+  background-color: #503e9d !important;
+}
+.preloader {
+  position: fixed;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

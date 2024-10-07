@@ -1,0 +1,216 @@
+.courses-videos .container-fluid {
+  background-color: white;
+  border-radius: 10px;
+}
+.sidebar-video-title {
+  cursor: pointer;
+}
+.courses-videos .course-title {
+  font-size: 27px;
+  position: relative;
+  color: #2b3674 !important;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.pills-head-course::before {
+  content: "";
+  position: absolute;
+  background-color: #fb6d3a;
+  height: 3px;
+  width: 3%;
+  border-radius: 20px;
+  left: 0;
+  bottom: -1px;
+}
+.pills-head-course::after {
+  content: "";
+  position: absolute;
+  background-color: #fb6d3a;
+  border-radius: 20px;
+  height: 3px;
+  width: 2%;
+  left: 0;
+  bottom: -5px;
+}
+.courses-videos .video-player {
+  width: 100% !important;
+  height: 350px !important;
+  background-color: black;
+  object-fit: cover;
+}
+.courses-videos .video-player {
+  padding-top: 0 !important;
+}
+.video-title {
+  color: #2b3674 !important;
+  font-weight: 700 !important;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.big-title h4 {
+  transition: 0.3s;
+}
+.big-title h4:hover {
+  margin-left: 10px;
+}
+.courses-videos .sidebar-course {
+  border-radius: 10px;
+  border: 1px solid;
+  color: white;
+  padding: 10px;
+  background-color: #503e9d;
+}
+.big-title a {
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 700;
+  background-color: #503e9d;
+  transition: 0.3s;
+}
+.big-title a:hover {
+  color: white;
+  background-color: #503e9d;
+  letter-spacing: 1px;
+}
+.free-badge {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.enroll-link {
+  display: flex;
+  align-items: center;
+}
+
+.courses-videos .sidebar-video-title {
+  padding: 5px 10px;
+  color: #fb6d3a;
+  border-radius: 10px;
+  background-color: white;
+  transition: 0.3s;
+}
+.courses-videos .sidebar-video-title p {
+  font-size: 19px !important;
+  font-weight: 500;
+}
+.courses-videos .sidebar-video-title .icon {
+  font-size: 17px !important;
+}
+.courses-videos .sidebar-video-title:hover {
+  padding-left: 15px;
+}
+.courses-videos .sidebar-course p {
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+.courses-videos .sidebar-course .sidebar-video-title span {
+  font-size: 15px;
+}
+.copyrights {
+  position: absolute;
+  z-index: 800;
+  width: max-content;
+  font-size: 17px;
+  font-weight: bold;
+  color: red;
+  /* border: 1px solid white; */
+  padding: 5px 10px;
+  border-radius: 8px;
+  animation: moveAndFade 15s infinite;
+}
+@keyframes moveAndFade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    top: 35%;
+    left: 20%;
+  }
+  20% {
+    opacity: 50%;
+    top: 35%;
+    left: 20%;
+  }
+  /* dead */
+  30% {
+    opacity: 0;
+    top: 35%;
+    left: 20%;
+  }
+  /* dead */
+  40% {
+    opacity: 0;
+    top: 30%;
+    left: 45%;
+  }
+  50% {
+    opacity: 0;
+    top: 80%;
+    left: 45%;
+  }
+  60% {
+    opacity: 45%;
+    top: 80%;
+    left: 45%;
+  }
+  /* dead */
+  70% {
+    opacity: 0;
+    top: 80%;
+    left: 45%;
+  }
+  /* dead */
+  80% {
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+  }
+  90% {
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+  }
+  100% {
+    left: 50%;
+    top: 50%;
+    opacity: 45%;
+  }
+}
+.video-wrapper {
+  position: relative;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000099;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  color: white;
+  text-align: center;
+  z-index: 10;
+}
+.overlay-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.blurred-video {
+  filter: blur(5px);
+}
+.video-player {
+  z-index: 1;
+}

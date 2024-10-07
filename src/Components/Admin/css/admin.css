@@ -1,0 +1,192 @@
+body {
+  background-color: #503e9d !important;
+}
+.admin .pills-head {
+  color: #2b3674 !important;
+  font-weight: 700 !important;
+  font-size: 20px;
+}
+.pills-head-table {
+  position: relative;
+  color: #2b3674 !important;
+  font-weight: 700 !important;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.pills-head-table::before {
+  content: "";
+  position: absolute;
+  background-color: #fb6d3a;
+  height: 3px;
+  width: 3%;
+  border-radius: 20px;
+  left: 0;
+  bottom: -1px;
+}
+.pills-head-table::after {
+  content: "";
+  position: absolute;
+  background-color: #fb6d3a;
+  border-radius: 20px;
+  height: 3px;
+  width: 2%;
+  left: 0;
+  bottom: -5px;
+}
+.table-responsive h3,
+.total {
+  color: #2b3674 !important;
+  font-weight: 700 !important;
+  font-size: 17px;
+}
+
+.admin .tab-pane {
+  border-radius: 30px !important;
+  padding: 50px 35px 30px;
+  background-color: #ffffff !important;
+}
+.sidebar .icon {
+  font-size: 19px;
+}
+table th {
+  text-transform: capitalize;
+  color: #a3aed0 !important;
+}
+table tr {
+  font-size: 14px;
+}
+table a {
+  text-decoration: none !important;
+  color: #23b0ff;
+  transition: 0.3s;
+}
+table a:hover {
+  color: #3aa7e6;
+}
+.admin form {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e9eef5;
+}
+.v-bg {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.radio {
+  cursor: pointer;
+}
+.v-bg .pointer h5 {
+  font-weight: 600;
+}
+.v-bg .pointer h6 {
+  font-size: 13px;
+  color: #8f9bba;
+}
+
+.admin label {
+  font-weight: 500;
+  color: #2b3674 !important;
+}
+.admin input {
+  border: 1px solid transparent !important;
+}
+.admin textarea,
+.admin select,
+.admin input {
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  color: #2b3674 !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+}
+
+.admin option,
+.selectedLessons {
+  color: #2b3674 !important;
+}
+textarea:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.admin ::placeholder {
+  color: #cfd6e1 !important;
+}
+.admin p {
+  margin-top: 5px;
+  font-size: 13px;
+}
+.admin .add {
+  width: max-content;
+}
+.operation {
+  width: 70px;
+}
+.swal2-actions .btn {
+  margin: 0 10px;
+}
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 8px solid #007bff;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.progress {
+  width: 80%;
+}
+.progress-bar {
+  background-color: #007bff;
+  width: 100%;
+  height: 19px;
+}
+.custom-swal {
+  z-index: 1325659 !important;
+}
+.custom-swal .swal2-confirm {
+  background-color: #198754;
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  margin-left: 10px;
+  border: none;
+}
+
+.custom-swal .swal2-cancel {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  border: none;
+}
+.custom-swal .swal2-deny {
+  background-color: #6c757d;
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  border: none;
+}

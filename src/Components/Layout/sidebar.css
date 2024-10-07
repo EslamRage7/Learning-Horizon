@@ -1,0 +1,101 @@
+/* SideBar.css */
+.side-home .sidebar-wrapper {
+  position: relative;
+  width: 100%;
+}
+.side-home a,
+.logout {
+  text-decoration: none;
+  color: white !important;
+}
+.side-home .btn-sidebar button {
+  display: flex !important;
+  align-items: center !important;
+}
+.side-home .sidebar-container {
+  position: fixed;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  transition: width 0.3s ease;
+  z-index: 999;
+}
+.side-home .nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.side-home .menu-item {
+  display: flex;
+  align-items: center;
+  border-radius: 30px !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  padding: 5px 20px;
+  transition: 0.2s;
+}
+.side-home .active {
+  border-radius: 30px !important;
+  font-size: 17px !important;
+  color: #fb6d3a !important;
+  font-weight: 700;
+  padding: 5px 20px;
+  background-color: white !important;
+  transition: 0.2s;
+}
+
+.side-home .menu-item:hover {
+  color: #fb6d3a !important;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.side-home .menu-item span {
+  display: inline-block;
+  opacity: 1;
+  white-space: nowrap;
+}
+.side-home .menu-item.active span {
+  opacity: 1;
+}
+.side-home .character-image img {
+  height: auto;
+  width: 100px;
+  margin: auto;
+  cursor: pointer;
+}
+@media (max-width: 705px) {
+  .side-home .sidebar-container {
+    width: 80px;
+    left: 13%;
+    transform: translateX(-50%);
+  }
+  .side-home .menu-item span {
+    display: none !important;
+  }
+  .side-home .menu-item {
+    font-size: 20px !important;
+  }
+  .side-home .active {
+    border-radius: 30px !important;
+    font-size: 20px !important;
+    color: #fb6d3a !important;
+    font-weight: 700;
+    padding: 5px 20px;
+    background-color: white !important;
+  }
+  .side-home .character-image img {
+    width: 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .side-home .character-image img {
+    width: 77px;
+  }
+}

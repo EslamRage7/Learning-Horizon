@@ -1,0 +1,180 @@
+body {
+  background-color: #503e9d !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.all {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.books,
+.heal {
+  position: absolute;
+}
+.heal {
+  width: 200px;
+  top: 0%;
+  left: 10%;
+}
+.books {
+  bottom: 0 !important;
+  right: 0;
+  overflow: hidden;
+}
+.books img {
+  width: 380px;
+  overflow: hidden;
+}
+.all form {
+  width: 480px;
+  margin: auto;
+  border: 1px solid #ffffff33;
+  padding: 30px 20px 20px;
+  color: white;
+  box-shadow: 0px 0px 7px 1px #0000003d;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+.lock {
+  width: 200px !important;
+}
+.all form h1 {
+  font-size: 30px;
+}
+.all form .head p {
+  color: white;
+  font-size: 13px;
+}
+.all form p,
+.all form h2 {
+  color: #fed501;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.all form label {
+  font-size: 13px;
+}
+.all form .forgot {
+  font-size: 11px;
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white !important;
+}
+.all form .forgot:hover {
+  letter-spacing: 1px;
+}
+input {
+  background-color: transparent !important;
+  border: 1px solid #c4c4c4 !important;
+  color: white !important;
+  font-size: 14px !important;
+  min-height: 38px;
+}
+.form-check-input {
+  min-height: 12px;
+}
+.open-course .list-group-item {
+  padding: 8px 10px;
+}
+.css-19bb58m {
+  margin: -20px !important;
+} /* صندوق الـ Select */
+
+.all input:focus {
+  box-shadow: none !important;
+}
+
+input[type="password"] {
+  letter-spacing: 0.125em !important;
+  font-family: Verdana !important;
+}
+::placeholder {
+  color: #c4c4c4 !important;
+  font-size: 10px !important;
+}
+.all form button {
+  border: 1px solid white !important;
+  width: 100%;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  transition: 0.3s !important;
+}
+.btns .btn-one {
+  background-color: white !important;
+  color: #503e9d !important;
+}
+.google-login-container {
+  display: flex;
+  justify-content: center;
+}
+.google-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 14px !important;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.all form button:hover {
+  letter-spacing: 2px;
+}
+.all .form-check-label {
+  cursor: pointer;
+  margin: 4px 0 0 3px;
+}
+.password {
+  position: relative;
+}
+.eye {
+  position: absolute;
+  color: #c4c4c4;
+  right: 2%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.google {
+  font-weight: 700 !important;
+}
+.all form h6 {
+  font-size: 12px;
+}
+.all form h6 a {
+  transition: 0.2s;
+  color: #fb6d3a;
+  background-color: white;
+  padding: 4px 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.all form h6 a:hover {
+  letter-spacing: 1px;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: transparent !important;
+}
+.custom-phone-input .form-control {
+  color: #007bff;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+.react-tel-input .country-list .country {
+  color: #503e9d !important;
+}
+.custom-phone-input .flag-dropdown {
+  background-color: #007bff;
+}

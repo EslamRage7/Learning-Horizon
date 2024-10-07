@@ -1,0 +1,339 @@
+@media (max-width: 1490px) {
+  .slick-slider {
+    margin: auto !important;
+    border-radius: 17px !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .video-react .video-react-big-play-button {
+    font-size: 25px !important;
+  }
+  .card .info {
+    width: 300px;
+  }
+  .card .info h4 {
+    font-size: 25px;
+  }
+  .card .info p {
+    font-size: 13px;
+  }
+  .card .price {
+    font-size: 15px;
+  }
+  .copyrights {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 880px) {
+  .slick-slider img {
+    height: 165px !important;
+  }
+  .pills-head-table::before {
+    width: 9% !important;
+  }
+  .pills-head-table::after {
+    width: 6% !important;
+  }
+  .slick-slider {
+    width: 98% !important;
+  }
+  .video-react .video-react-big-play-button {
+    font-size: 20px !important;
+  }
+  .search-icon {
+    left: 4% !important;
+  }
+  .card .info {
+    width: 230px !important;
+  }
+  .card .info h4 {
+    font-size: 23px;
+  }
+  .card .info p {
+    font-size: 12px;
+  }
+  .card .price {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slick-slider img {
+    height: 150px !important;
+  }
+  .home .pills-head {
+    font-size: 18px;
+  }
+  .home .recommended {
+    font-size: 23px;
+  }
+  .pills-head-table::before {
+    width: 9% !important;
+  }
+  .pills-head-table::after {
+    width: 6% !important;
+  }
+  .video-react .video-react-big-play-button {
+    font-size: 27px !important;
+  }
+  .custom-swal {
+    font-size: 13px;
+    z-index: 666666666666 !important;
+  }
+  .custom-swal {
+    font-size: 13px;
+    z-index: 666666666666 !important;
+  }
+  .Material-tab input,
+  .books-tab input {
+    margin-top: 12px;
+  }
+  .search-icon {
+    font-size: 14px !important;
+    left: 4% !important;
+  }
+  .card .info {
+    width: 100% !important;
+  }
+  .card .info h4 {
+    font-size: 23px;
+  }
+  .card .info p {
+    font-size: 14px;
+  }
+  .card .links a,
+  .card .links button {
+    width: 160px;
+    font-size: 13px;
+  }
+  .sections button,
+  .view {
+    font-size: 13px;
+  }
+  .courses-videos .row {
+    padding-bottom: 20px;
+  }
+  .overlay-content h3 {
+    font-size: 20px !important;
+  }
+  .user-edit button {
+    font-size: 14px !important;
+  }
+  .pills-head-course::before {
+    width: 8% !important;
+  }
+  .pills-head-course::after {
+    width: 5% !important;
+  }
+}
+
+@media (max-width: 705px) {
+  .nav-link {
+    margin: auto;
+    width: 100% !important;
+    padding: 5px 10px !important;
+  }
+  .home .nav-link {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 575px) {
+  .sm-side {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .sidebar {
+    display: none;
+  }
+  .sm-side {
+    display: block;
+  }
+  .video-react .video-react-big-play-button {
+    font-size: 24px !important;
+  }
+  .home .nav-link {
+    font-size: 17px !important;
+  }
+  .user-edit button {
+    font-size: 13px !important;
+    margin: auto;
+  }
+  .material .box {
+    width: 320px;
+    margin: auto;
+  }
+  .codex {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 568px) {
+  .slick-slider img {
+    height: 115px !important;
+  }
+  .home .pills-head {
+    font-size: 17px;
+  }
+  .home .recommended {
+    font-size: 21px;
+  }
+  .courses-videos .sidebar-video-title p {
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  .courses-videos .sidebar-course p {
+    font-size: 15px !important;
+  }
+  .courses-videos .sidebar-course .sidebar-video-title span {
+    font-size: 13px !important;
+  }
+  .custom-swal {
+    font-size: 10px;
+    z-index: 666666666666 !important;
+  }
+  .search-icon {
+    left: 3% !important;
+    font-size: 11px !important;
+  }
+  .card img {
+    width: 100px !important;
+  }
+  .card .info {
+    width: 100% !important;
+  }
+  .card .info h4 {
+    font-size: 18px;
+  }
+  .card .info p {
+    font-size: 13px;
+  }
+  .card .price {
+    font-size: 13px;
+  }
+  .card .links a,
+  .card .links button {
+    width: 160px !important;
+    font-size: 12px;
+  }
+  .overlay-content h3 {
+    font-size: 17px !important;
+  }
+  .sections button,
+  .view {
+    font-size: 12px;
+  }
+  .material .card-creator {
+    font-size: 15px;
+  }
+  .material .card-title {
+    font-size: 17px;
+  }
+  .material .card-price {
+    font-size: 15px;
+  }
+  .material a {
+    font-weight: 500;
+    padding: 4px;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+  .courses-videos .video-player {
+    height: 300px !important;
+    font-size: 9px;
+  }
+
+  .copyrights {
+    font-size: 12px !important;
+  }
+  .courses-videos .course-title {
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 468px) {
+  .card img {
+    width: 70px !important;
+  }
+  .card .info {
+    width: 100% !important;
+  }
+  .card .info h4 {
+    font-size: 17px;
+  }
+  .card .info p {
+    font-size: 10px;
+  }
+  .card .links a,
+  .card .links button {
+    width: 160px !important;
+    font-size: 11px;
+  }
+  .sections button,
+  .view {
+    font-size: 10px;
+  }
+  .search-icon {
+    left: 5% !important;
+    font-size: 11px !important;
+  }
+  .material .box {
+    width: auto;
+    margin: auto;
+  }
+  .material .card-price {
+    font-size: 13px;
+  }
+  .courses-videos .video-player {
+    height: 250px !important;
+    font-size: 6px;
+  }
+  .big-title {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .enroll-link {
+    margin-top: 10px;
+  }
+  .loader {
+    left: 45%;
+  }
+  .copyrights {
+    font-size: 8px !important;
+  }
+  .pills-head-course::before {
+    width: 15% !important;
+  }
+  .pills-head-course::after {
+    width: 10% !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick";
+    font-size: 15px !important;
+    line-height: 1;
+    opacity: 0.75;
+    color: #503e9d !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* .big-title a {
+    font-size: 12px;
+  } */
+  .video-react .video-react-big-play-button {
+    font-size: 20px !important;
+  }
+  .copyrights {
+    font-size: 7px !important;
+  }
+  .codex {
+    font-size: 14px;
+  }
+}
